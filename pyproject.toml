@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ragqdrant"
+version = "0.1.0"
+description = ""
+authors = ["Ammly <awkinyua@safaricom.co.ke>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pinecone-client = "^5.0.0"
+langchain = "*"
+langchain_community = "*"
+unstructured = {extras = ["pdf", "md", "ppt", "pptx"], version = "*"}
+qdrant-client = "*"
+langchain-qdrant = "*"
+torch = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
