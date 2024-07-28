@@ -2,7 +2,7 @@
 name = "ragqdrant"
 version = "0.1.0"
 description = ""
-authors = ["Ammly <awkinyua@safaricom.co.ke>"]
+authors = ["Ammly <ammlyf@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
