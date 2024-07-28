@@ -1,5 +1,7 @@
 ### Instructions 
 
+Make sure you have ` ollama ` running locally and pull ` llama3.1 ` model. [Ollama Website](https://ollama.com/)
+
 1. Clone the repo 
 ```shell 
 gh repo clone Ammly/ragQdrant 
