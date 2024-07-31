@@ -14,6 +14,8 @@ unstructured = {extras = ["pdf", "md", "ppt", "pptx"], version = "*"}
 qdrant-client = "*"
 langchain-qdrant = "*"
 torch = "^2.4.0"
+diskcache = "*"
+tiktoken = "*"
 
 [build-system]
 requires = ["poetry-core"]
